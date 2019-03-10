@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "partybusiness";
+    src: url('/home/seb/workspace/Integration_Part_2/nancy-lorenz_party-business/partybusiness.ttf') format(Truetype);
+}
+
+body {
+    font-family: "partybusiness", sans-serif;
+}
