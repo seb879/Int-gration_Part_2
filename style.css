@@ -1,6 +1,6 @@
 @font-face {
     font-family: "partybusiness";
-    src: url('/home/seb/workspace/Integration_Part_2/nancy-lorenz_party-business/partybusiness.ttf') format(Truetype);
+    src: url('https://github.com/seb879/Integration_Part_2/blob/dev/font/partybusiness.ttf') format(Truetype);
 }
 
 body {
