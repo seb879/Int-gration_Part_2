@@ -1,8 +1,170 @@
 @font-face {
-    font-family: "partybusiness";
-    src: url('https://github.com/seb879/Integration_Part_2/blob/dev/font/partybusiness.ttf') format(Truetype);
+    font-family: partybusiness;
+    src: url('partybusiness.ttf');
+}
+@font-face {
+    font-family: aniron;
+    src: url('anicb___.ttf');
+}
+@font-face {
+    font-family: tngan;
+    src: url('tngani.ttf');
 }
 
 body {
-    font-family: "partybusiness", sans-serif;
+    font-family: partybusiness;
+    font-weight: bold;
+    font-size: 1rem;
 }
+.nav-link {
+    font-family: aniron;
+}
+.nav-logo{
+    width: 80%;
+    padding-left: 1px;
+}
+.carousel-caption {
+    font-family: aniron;
+    position: absolute;
+    top: 50%;
+}
+
+/*Titre*/
+h1{
+    font-family: tngan;
+    color: #ff7200;
+    margin-left: 35px;
+    margin-bottom: 4rem;
+}
+/*button*/
+.btn-group {
+    width: 60%;
+    margin-top: 2rem;
+    display: flex;
+}
+.btn-group .btn {
+    font-size: 20px;
+    color: grey;
+    font-weight: bold;
+    text-decoration: underline,
+}
+.btn-group span {
+    font-family: tngan;
+    color: #ff7200;
+}
+.btn-page {
+    color: #ff7200;
+    font-weight: bold;
+}
+
+/*Card*/
+.card-deck {
+    margin-bottom: 2rem;
+}
+.card {
+    border: solid 5px black;
+    background-color: black;
+}
+.imgMost{
+	display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.heroesHover {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    font-size: 22px;
+    width: 60%;
+    background-color:rgb(216,216,216);
+    border-radius: 10px;
+    opacity: 0.7;
+}
+.gimliHover{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    width: 60%;
+    font-size: 50px;
+}
+.heroesName{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    font-size: 55px;
+    width: 60%;
+    color: white;
+}
+.imgHover{
+    opacity: 0.6;
+}
+.heroes:hover .imgHover{
+    opacity: 1;
+}
+.heroes:hover .heroesHover{
+	display: none;
+}
+.heroes:hover .gimliHover{
+	display: none;
+}
+.heroes:hover .heroesName{
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    font-size: 35px;
+}
+.card-text{
+    font-size: 35px;
+    color: grey;
+}
+/*Reward*/
+.reward {
+    background-image: url(integration_maquette_finale/bg_dark.png);
+    color: white;
+  }
+  
+  /*hunter*/
+  .hunter {
+    background-image: url(integration_maquette_finale/bg_light.png);
+  }
+  .likefb
+  {
+    height: 1rem;
+  }
+  
+  /*About ring*/
+  .ring {
+    background-image: url(integration_maquette_finale/bg_dark.png);
+  }
+  h5, th, td {
+    font-family: aniron;
+  }
+  .gollum {
+    height: 150px;
+    width: 150px;
+    border-radius: 150px 150px 150px 150px;
+    position: relative;
+    margin-right: 15px;
+  }
+  
+  /*Army*/
+  .army {
+    background-image: url(integration_maquette_finale/bg_light.png);
+  }
+  .media .army-pic_1 {
+    
+  }
+  
+  /*Contact Us*/
+  .contact {
+    background-image: url(integration_maquette_finale/bg_dark.png);
+    font-family: aniron;
+    font-weight: bold;
+  }
+  
+  /*Footer*/
+  .footer {
+    background-color: #ff7200;
+    color: white;
+    font-family: aniron;
+  }
